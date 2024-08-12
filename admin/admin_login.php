@@ -61,7 +61,7 @@ if(isset($_POST['submit'])){
       <input type="text" name="name" required placeholder="Enter your username" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" required placeholder="Enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="login now" class="btn" name="submit">
-      <a href="http://localhost/apnabazar/home.php"class="btn">Go home</a>
+      <!-- <a href="http://localhost/apnabazar/home.php"class="btn">Go home</a> -->
 
    </form>
 
